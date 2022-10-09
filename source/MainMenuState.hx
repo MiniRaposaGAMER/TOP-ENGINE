@@ -293,10 +293,6 @@ class MainMenuState extends MusicBeatState
 		super.create();
 	}
 
-	#if MODS_ALLOWED
-	private var modsAdded:Array<String> = [];
-	function pushModMenuItemsToList(folder:String)
-	{
 		if(modsAdded.contains(folder)) return;
 
 		var menuitemsFile:String = null;
