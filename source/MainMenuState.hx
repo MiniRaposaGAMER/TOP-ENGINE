@@ -230,7 +230,6 @@ class MainMenuState extends MusicBeatState
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
 
-	              }
 	         {
 
 //if you did everything correctly you should have a very nice looking main menu 
